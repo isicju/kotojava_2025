@@ -9,7 +9,7 @@ public class Main {
         System.out.println("=== Apache Commons Lang3 Demo ===");
 
         // Example 1: String manipulation
-        String text = "hello world";
+        String text = "hello Java 2025 course";
         System.out.println("Original: " + text);
         System.out.println("Capitalized: " + StringUtils.capitalize(text));
         System.out.println("Reversed: " + StringUtils.reverse(text));
