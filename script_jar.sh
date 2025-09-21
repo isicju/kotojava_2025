@@ -4,4 +4,4 @@ mvn clean install
 
 echo "Starting server..."
 
-javac target/com.example-1.0
+java -jar target/hello-world-1.0-jar-with-dependencies.jar
