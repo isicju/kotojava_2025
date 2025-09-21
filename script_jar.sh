@@ -1,11 +1,7 @@
 #!/bin/bash
 
-javac SimpleServer.java
-
-echo "Main-Class: SimpleServer" > manifest.txt
-
-jar cfm SimpleServer.jar manifest.txt *.class
+mvn clean install
 
 echo "Starting server..."
 
-java -jar SimpleServer.jar
+javac target/com.example-1.0
